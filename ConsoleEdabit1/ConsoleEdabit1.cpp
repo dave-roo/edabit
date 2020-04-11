@@ -3,7 +3,15 @@
 
 #include <iostream>
 
+int convert(int minutes) {
+	float seconds = 0.0;
+	seconds = minutes / 60;
+	return seconds;
+};
+
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	std::cout << convert(2);
+
 }
